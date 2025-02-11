@@ -25,7 +25,7 @@ jobs:
       - name: Merge Upstream Changes
         run: |
           # Checkout your default branch; adjust 'main' if your default branch is named differently (e.g., master)
-          git checkout autosync
+          git checkout main
           # Merge changes from upstream; this uses fast-forward merge
           git merge upstream/main --ff-only
 
